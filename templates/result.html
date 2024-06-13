@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Extracted Text</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Extracted Text</h1>
+    <div class="card mt-4">
+      <div class="card-body">
+        <p>{{ text }}</p>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="/" class="btn btn-secondary">Go Back</a>
+      <a href="/download/txt/{{ filename }}" class="btn btn-success">Download as .txt</a>
+      <a href="/download/docx/{{ filename }}" class="btn btn-success">Download as .docx</a>
+    </div>
+  </div>
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
